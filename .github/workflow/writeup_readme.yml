@@ -5,7 +5,7 @@ name: Writeup-Readme
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
     paths:
       - 'DIPFall2025_Marino_David_Assignement1A.pdf'
       - '.README.md'
