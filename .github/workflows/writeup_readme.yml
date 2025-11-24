@@ -1,6 +1,6 @@
 ###### Copyright Easton Potokar, 2020
 
-name: Writeup-Readme
+name: Convert PDF to Images
 
 on:
   push:
@@ -11,24 +11,21 @@ on:
       - '.README.md'
       - '.github/workflows/writeup_readme.yml'
 
-jobs:
-  run:
-    runs-on: ubuntu-latest
-    env:
-      ORPHAN_BRANCH: readme_images
-      QUALITY: 85
-      DPI: 250
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        persist-credentials: false
-        fetch-depth: 0
 
-    ## CONVERT THE ACTUAL IMAGES
-    - name: Convert Writeup to Images
-      uses: jruipinto/ImageMagick-action@v1
-      with:
-        command: convert -density ${{env.DPI}} -trim -colorspace sRGB -alpha remove writeup.pdf -quality ${{env.QUALITY}} output-%03d.jpg
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Ghostscript
+        run: sudo apt-get update && sudo apt-get install -y ghostscript
+
+      - name: Convert PDF with ImageMagick
+        uses: jruipinto/ImageMagick-action@v1
+        with:
+          INPUT_COMMAND: magick -density 250 -trim -colorspace sRGB -alpha remove writeup.pdf -quality 85 output-%03d.jpg
 
     ## COMMIT THEM TO A ORPHAN BRANCH
     - name: Commit images to orphan branch
