@@ -1,0 +1,204 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[margin=1in]{geometry}
+\title{CS 4650/7650 ECE 4655/7655 Digital Image Processing 2025 Homework 1A: Point Processes in Python}
+\author{David Allen Stephan Marino}
+\begin{document}
+\maketitle
+\newpage
+\section{Abstract}
+The student (David Marino) applies Intensity Transformation processes on Human Lung Carcinoma Cells to segment the details present.
+Utilizing thresholding, the provided cell images from Florida State University are segmented to highlight the different parts of the Carcinoma cells.
+The original image is the result of individual color channels pseudocolored to correspond to the different fluorophore emission spectral profiles.
+The nuclei of the cells are highlighted in red, the mitochondria are highlighted in green, and the membrane is highlighted in blue.
+\newpage
+\section{Introduction}
+The student (David Marino) applies thresholding image processing techniques to extract highlight information from the cell images.
+Utilizing binary images and thresholding, several different metrics about the cells can be extracted.
+The student begins by converting the original input RGB image to gray for use in thresholding.
+Using the output gray image, thresholding is applied to highlight the cell groupings.
+Afterwards, the color channels of the original RGB image are extracted, and thresholding is applied once more to each color channel.
+Doing this shows the borders and details of each region found in the cell.
+Thresholding enables segmentation of the different fluorophore emission spectral profiles for further use in experiments.
+\newpage
+\section{Experiments and Results}
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{a549large12}
+  \caption{Input RGB image.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{a549large12_gray}
+  \caption{Output grayscale image.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{a549large12_thresh_32.jpg}
+  \caption{Binary image thresh 32.}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{a549large12_thresh_64.jpg}
+  \caption{Binary image thresh 64.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{a549large12_thresh_96.jpg}
+  \caption{Binary image thresh 96.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{a549large12_thresh_128.jpg}
+  \caption{Binary image thresh 128.}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{a549large12_thresh_160.jpg}
+  \caption{Binary image thresh 160.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{a549large12_thresh_196.jpg}
+  \caption{Binary image thresh 196.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{a549large12_thresh_224.jpg}
+  \caption{Binary image thresh 224.}
+\end{subfigure}
+\caption{Thresholding results for Human Lung Carcinoma Cells (A-549).}
+\end{figure}
+\newpage
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{red_a549large12_thresh_32.jpg}
+  \caption{Red channel thresh 32.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{red_a549large12_thresh_64.jpg}
+  \caption{Red channel thresh 64.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{red_a549large12_thresh_96.jpg}
+  \caption{Red channel thresh 96.}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{red_a549large12_thresh_128.jpg}
+  \caption{Red channel thresh 128.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{red_a549large12_thresh_160.jpg}
+  \caption{Red channel thresh 160.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{red_a549large12_thresh_196.jpg}
+  \caption{Red channel thresh 196.}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{red_a549large12_thresh_224.jpg}
+  \caption{Red channel thresh 224.}
+\end{subfigure}
+\caption{Thresholding results for the red channel of Human Lung Carcinoma Cells (A-549).}
+\end{figure}
+\newpage
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{green_a549large12_thresh_32.jpg}
+  \caption{Green channel thresh 32.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{green_a549large12_thresh_64.jpg}
+  \caption{Green channel thresh 64.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{green_a549large12_thresh_96.jpg}
+  \caption{Green channel thresh 96.}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{green_a549large12_thresh_128.jpg}
+  \caption{Green channel thresh 128.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{green_a549large12_thresh_160.jpg}
+  \caption{Green channel thresh 160.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{green_a549large12_thresh_196.jpg}
+  \caption{Green channel thresh 196.}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{green_a549large12_thresh_224.jpg}
+  \caption{Green channel thresh 224.}
+\end{subfigure}
+\caption{Thresholding results for the green channel of Human Lung Carcinoma Cells (A-549).}
+\end{figure}
+\newpage
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{blue_a549large12_thresh_32.jpg}
+  \caption{Blue channel thresh 32.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{blue_a549large12_thresh_64.jpg}
+  \caption{Blue channel thresh 64.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{blue_a549large12_thresh_96.jpg}
+  \caption{Blue channel thresh 96.}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{blue_a549large12_thresh_128.jpg}
+  \caption{Blue channel thresh 128.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{blue_a549large12_thresh_160.jpg}
+  \caption{Blue channel thresh 160.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{blue_a549large12_thresh_196.jpg}
+  \caption{Blue channel thresh 196.}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+  \includegraphics[width=\linewidth]{blue_a549large12_thresh_224.jpg}
+  \caption{Blue channel thresh 224.}
+\end{subfigure}
+\caption{Thresholding results for the blue channel of Human Lung Carcinoma Cells (A-549).}
+\end{figure}
+\newpage
+\section{Conclusions}
+\subsection{Did the programs work as expected?}
+The programs ./rgb2gray and ./gray2binary worked as expected.
+The binary images of the different channels show distinct regions.
+The red regions, in particular, are clear, and the optimal thresholding falls between 128 and 160.
+Before 128, these regions do show some noise, and after 160, the regions start to lose detail.
+The blue regions are quite complex because the color is not densely populated but loosely coupled, and the optimal thresholding falls between 0 and 32.
+Above 32, and the regions instantly begin losing detail however little noise is present.
+The green regions are highly populated and complex, and clear borders are not seen until thresholding is above 64.
+Noise is present at 64, and the borders continue to become more defined between 96 and 128.
+However, detail is lost between 96 and 128.
+Overall, the results turn out good and with further optimization of threshold values the regions can become more distinct.
+\subsection{Are the results satisfactory? Why/Why not?}
+The results are satisfactory. Using thresholding to segment the different regions of the cells, clear distinctions can be seen.
+These results can be further utilized for research and highlight the regions clearly.
+The green and blue regions of the cell, however, do not come through as clearly as the red regions.
+This is because those regions are noisier and are scattered and intermixed with each other.
+The red regions stand out clearly as they were densely populated and regionally contained within themselves.
+\newpage
+\section{References}
+\begin{itemize}
+  \item Dr. Filiz Bunyak\\
+        \textit{Python for Image Processing and Vision}.
+  \item OpenCV documentation\\
+        \textit{https://docs.opencv.org/4.x/}.
+  \item PyPlot documentation\\
+        \textit{https://matplotlib.org/stable/tutorials/pyplot.html}
+  \item Python documentation\\
+        \textit{https://docs.python.org/3/}
+  \item JupyterLab documentation\\
+        \textit{https://jupyterlab.readthedocs.io/en/latest/}
+  \item Alireza Heidari\\
+        \textit{Three–dimensional (3D) imaging spectroscopy of carcinoma, sarcoma, leukemia, lymphoma, multiple myeloma, melanoma, brain and spinal cord tumors, germ cell tumors, neuroendocrine tumors and carcinoid tumors under synchrotron radiation}\\
+        California South Universit, January 29, 2019
+  \item Michael W. Davidson\\
+        \textit{Fluorescence Digital Image Gallery}\\
+        Florida State University, October 14, 2004
+\end{itemize}
+\end{document}

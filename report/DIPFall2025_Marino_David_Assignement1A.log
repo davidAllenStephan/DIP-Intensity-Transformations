@@ -1,0 +1,400 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.12)  11 SEP 2025 18:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**DIPFall2025_Marino_David_Assignement1A.tex
+(./DIPFall2025_Marino_David_Assignement1A.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen143
+\captionmargin=\dimen144
+\caption@leftmargin=\dimen145
+\caption@rightmargin=\dimen146
+\caption@width=\dimen147
+\caption@indent=\dimen148
+\caption@parindent=\dimen149
+\caption@hangindent=\dimen150
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count193
+\c@continuedfloat=\count194
+)
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count195
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count196
+)
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2023basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2023basic/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count197
+\Gm@cntv=\count198
+\c@Gm@tempcnt=\count199
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks17
+)
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
+ef
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count266
+\l__pdf_internal_box=\box51
+) (./DIPFall2025_Marino_David_Assignement1A.aux)
+\openout1 = `DIPFall2025_Marino_David_Assignement1A.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(/usr/local/texlive/2023basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count267
+\scratchdimen=\dimen159
+\scratchbox=\box52
+\nofMPsegments=\count268
+\nofMParguments=\count269
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count270
+\MPscratchDim=\dimen160
+\MPnumerator=\count271
+\makeMPintoPDFobject=\count272
+\everyMPtoPDFconversion=\toks19
+)
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.s
+ty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 8.
+[1
+
+{/usr/local/texlive/2023basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] [3]
+<a549large12.jpg, id=16, 509.905pt x 369.38pt>
+File: a549large12.jpg Graphic file (type jpg)
+<use a549large12.jpg>
+Package pdftex.def Info: a549large12.jpg  used on input line 29.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<a549large12_gray.jpg, id=17, 509.905pt x 369.38pt>
+File: a549large12_gray.jpg Graphic file (type jpg)
+<use a549large12_gray.jpg>
+Package pdftex.def Info: a549large12_gray.jpg  used on input line 33.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<a549large12_thresh_32.jpg, id=18, 509.905pt x 369.38pt>
+File: a549large12_thresh_32.jpg Graphic file (type jpg)
+<use a549large12_thresh_32.jpg>
+Package pdftex.def Info: a549large12_thresh_32.jpg  used on input line 37.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<a549large12_thresh_64.jpg, id=19, 509.905pt x 369.38pt>
+File: a549large12_thresh_64.jpg Graphic file (type jpg)
+<use a549large12_thresh_64.jpg>
+Package pdftex.def Info: a549large12_thresh_64.jpg  used on input line 41.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<a549large12_thresh_96.jpg, id=20, 509.905pt x 369.38pt>
+File: a549large12_thresh_96.jpg Graphic file (type jpg)
+<use a549large12_thresh_96.jpg>
+Package pdftex.def Info: a549large12_thresh_96.jpg  used on input line 45.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<a549large12_thresh_128.jpg, id=21, 509.905pt x 369.38pt>
+File: a549large12_thresh_128.jpg Graphic file (type jpg)
+<use a549large12_thresh_128.jpg>
+Package pdftex.def Info: a549large12_thresh_128.jpg  used on input line 49.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<a549large12_thresh_160.jpg, id=22, 509.905pt x 369.38pt>
+File: a549large12_thresh_160.jpg Graphic file (type jpg)
+<use a549large12_thresh_160.jpg>
+Package pdftex.def Info: a549large12_thresh_160.jpg  used on input line 53.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<a549large12_thresh_196.jpg, id=23, 509.905pt x 369.38pt>
+File: a549large12_thresh_196.jpg Graphic file (type jpg)
+<use a549large12_thresh_196.jpg>
+Package pdftex.def Info: a549large12_thresh_196.jpg  used on input line 57.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<a549large12_thresh_224.jpg, id=24, 509.905pt x 369.38pt>
+File: a549large12_thresh_224.jpg Graphic file (type jpg)
+<use a549large12_thresh_224.jpg>
+Package pdftex.def Info: a549large12_thresh_224.jpg  used on input line 61.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+ [4 <./a549large12.jpg> <./a549large12_gray.jpg> <./a549large12_thresh_32.jpg> 
+<./a549large12_thresh_64.jpg> <./a549large12_thresh_96.jpg> <./a549large12_thre
+sh_128.jpg> <./a549large12_thresh_160.jpg> <./a549large12_thresh_196.jpg> <./a5
+49large12_thresh_224.jpg>]
+<red_a549large12_thresh_32.jpg, id=29, 509.905pt x 369.38pt>
+File: red_a549large12_thresh_32.jpg Graphic file (type jpg)
+<use red_a549large12_thresh_32.jpg>
+Package pdftex.def Info: red_a549large12_thresh_32.jpg  used on input line 70.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<red_a549large12_thresh_64.jpg, id=30, 509.905pt x 369.38pt>
+File: red_a549large12_thresh_64.jpg Graphic file (type jpg)
+<use red_a549large12_thresh_64.jpg>
+Package pdftex.def Info: red_a549large12_thresh_64.jpg  used on input line 74.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<red_a549large12_thresh_96.jpg, id=31, 509.905pt x 369.38pt>
+File: red_a549large12_thresh_96.jpg Graphic file (type jpg)
+<use red_a549large12_thresh_96.jpg>
+Package pdftex.def Info: red_a549large12_thresh_96.jpg  used on input line 78.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<red_a549large12_thresh_128.jpg, id=32, 509.905pt x 369.38pt>
+File: red_a549large12_thresh_128.jpg Graphic file (type jpg)
+<use red_a549large12_thresh_128.jpg>
+Package pdftex.def Info: red_a549large12_thresh_128.jpg  used on input line 82.
+
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<red_a549large12_thresh_160.jpg, id=33, 509.905pt x 369.38pt>
+File: red_a549large12_thresh_160.jpg Graphic file (type jpg)
+<use red_a549large12_thresh_160.jpg>
+Package pdftex.def Info: red_a549large12_thresh_160.jpg  used on input line 86.
+
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<red_a549large12_thresh_196.jpg, id=34, 509.905pt x 369.38pt>
+File: red_a549large12_thresh_196.jpg Graphic file (type jpg)
+<use red_a549large12_thresh_196.jpg>
+Package pdftex.def Info: red_a549large12_thresh_196.jpg  used on input line 90.
+
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<red_a549large12_thresh_224.jpg, id=35, 509.905pt x 369.38pt>
+File: red_a549large12_thresh_224.jpg Graphic file (type jpg)
+<use red_a549large12_thresh_224.jpg>
+Package pdftex.def Info: red_a549large12_thresh_224.jpg  used on input line 94.
+
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+ [5 <./red_a549large12_thresh_32.jpg> <./red_a549large12_thresh_64.jpg> <./red_
+a549large12_thresh_96.jpg> <./red_a549large12_thresh_128.jpg> <./red_a549large1
+2_thresh_160.jpg> <./red_a549large12_thresh_196.jpg> <./red_a549large12_thresh_
+224.jpg>]
+<green_a549large12_thresh_32.jpg, id=39, 509.905pt x 369.38pt>
+File: green_a549large12_thresh_32.jpg Graphic file (type jpg)
+<use green_a549large12_thresh_32.jpg>
+Package pdftex.def Info: green_a549large12_thresh_32.jpg  used on input line 10
+3.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<green_a549large12_thresh_64.jpg, id=40, 509.905pt x 369.38pt>
+File: green_a549large12_thresh_64.jpg Graphic file (type jpg)
+<use green_a549large12_thresh_64.jpg>
+Package pdftex.def Info: green_a549large12_thresh_64.jpg  used on input line 10
+7.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<green_a549large12_thresh_96.jpg, id=41, 509.905pt x 369.38pt>
+File: green_a549large12_thresh_96.jpg Graphic file (type jpg)
+<use green_a549large12_thresh_96.jpg>
+Package pdftex.def Info: green_a549large12_thresh_96.jpg  used on input line 11
+1.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<green_a549large12_thresh_128.jpg, id=42, 509.905pt x 369.38pt>
+File: green_a549large12_thresh_128.jpg Graphic file (type jpg)
+<use green_a549large12_thresh_128.jpg>
+Package pdftex.def Info: green_a549large12_thresh_128.jpg  used on input line 1
+15.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<green_a549large12_thresh_160.jpg, id=43, 509.905pt x 369.38pt>
+File: green_a549large12_thresh_160.jpg Graphic file (type jpg)
+<use green_a549large12_thresh_160.jpg>
+Package pdftex.def Info: green_a549large12_thresh_160.jpg  used on input line 1
+19.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<green_a549large12_thresh_196.jpg, id=44, 509.905pt x 369.38pt>
+File: green_a549large12_thresh_196.jpg Graphic file (type jpg)
+<use green_a549large12_thresh_196.jpg>
+Package pdftex.def Info: green_a549large12_thresh_196.jpg  used on input line 1
+23.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<green_a549large12_thresh_224.jpg, id=45, 509.905pt x 369.38pt>
+File: green_a549large12_thresh_224.jpg Graphic file (type jpg)
+<use green_a549large12_thresh_224.jpg>
+Package pdftex.def Info: green_a549large12_thresh_224.jpg  used on input line 1
+27.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+ [6 <./green_a549large12_thresh_32.jpg> <./green_a549large12_thresh_64.jpg> <./
+green_a549large12_thresh_96.jpg> <./green_a549large12_thresh_128.jpg> <./green_
+a549large12_thresh_160.jpg> <./green_a549large12_thresh_196.jpg> <./green_a549l
+arge12_thresh_224.jpg>]
+<blue_a549large12_thresh_32.jpg, id=49, 509.905pt x 369.38pt>
+File: blue_a549large12_thresh_32.jpg Graphic file (type jpg)
+<use blue_a549large12_thresh_32.jpg>
+Package pdftex.def Info: blue_a549large12_thresh_32.jpg  used on input line 136
+.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<blue_a549large12_thresh_64.jpg, id=50, 509.905pt x 369.38pt>
+File: blue_a549large12_thresh_64.jpg Graphic file (type jpg)
+<use blue_a549large12_thresh_64.jpg>
+Package pdftex.def Info: blue_a549large12_thresh_64.jpg  used on input line 140
+.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<blue_a549large12_thresh_96.jpg, id=51, 509.905pt x 369.38pt>
+File: blue_a549large12_thresh_96.jpg Graphic file (type jpg)
+<use blue_a549large12_thresh_96.jpg>
+Package pdftex.def Info: blue_a549large12_thresh_96.jpg  used on input line 144
+.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<blue_a549large12_thresh_128.jpg, id=52, 509.905pt x 369.38pt>
+File: blue_a549large12_thresh_128.jpg Graphic file (type jpg)
+<use blue_a549large12_thresh_128.jpg>
+Package pdftex.def Info: blue_a549large12_thresh_128.jpg  used on input line 14
+8.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<blue_a549large12_thresh_160.jpg, id=53, 509.905pt x 369.38pt>
+File: blue_a549large12_thresh_160.jpg Graphic file (type jpg)
+<use blue_a549large12_thresh_160.jpg>
+Package pdftex.def Info: blue_a549large12_thresh_160.jpg  used on input line 15
+2.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<blue_a549large12_thresh_196.jpg, id=54, 509.905pt x 369.38pt>
+File: blue_a549large12_thresh_196.jpg Graphic file (type jpg)
+<use blue_a549large12_thresh_196.jpg>
+Package pdftex.def Info: blue_a549large12_thresh_196.jpg  used on input line 15
+6.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+<blue_a549large12_thresh_224.jpg, id=55, 509.905pt x 369.38pt>
+File: blue_a549large12_thresh_224.jpg Graphic file (type jpg)
+<use blue_a549large12_thresh_224.jpg>
+Package pdftex.def Info: blue_a549large12_thresh_224.jpg  used on input line 16
+0.
+(pdftex.def)             Requested size: 140.92793pt x 102.08989pt.
+ [7 <./blue_a549large12_thresh_32.jpg> <./blue_a549large12_thresh_64.jpg> <./bl
+ue_a549large12_thresh_96.jpg> <./blue_a549large12_thresh_128.jpg> <./blue_a549l
+arge12_thresh_160.jpg> <./blue_a549large12_thresh_196.jpg> <./blue_a549large12_
+thresh_224.jpg>] [8] [9] (./DIPFall2025_Marino_David_Assignement1A.aux) ) 
+Here is how much of TeX's memory you used:
+ 3562 strings out of 477476
+ 66652 string characters out of 5824244
+ 1855388 words of memory out of 5000000
+ 23790 multiletter control sequences out of 15000+600000
+ 517214 words of font info for 48 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 67i,8n,77p,346b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Use
+rs/davidmarino/Library/texlive/2023basic/texmf-var/fonts/pk/ljfour/jknappen/ec/
+tcrm1000.600pk></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb>
+Output written on DIPFall2025_Marino_David_Assignement1A.pdf (9 pages, 1757570 
+bytes).
+PDF statistics:
+ 99 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+
